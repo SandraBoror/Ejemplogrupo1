@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    /*establecer fondo con degradadp y altura para todo el body*/
+    background:linear-gradient(150deg, #00E676, #64B5F6);
+    height: 100vh;
+    /*centrar con fex box el contenedor en el body*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    #contenedor{
+        background: azure;
+        border-radius: 10px;
+        width: 400px;
+    }
+
+    h1{
+        color: darkslateblue;
+        text-align: center;
+        border-bottom:2px solid darkcyan;
+        padding: 0 0 20px 0;
+    }
+
+    #contenedor form{
+    padding: 0 40px; /*apartir de donde se escribe*/
+    }
+
+    .ingreso{
+        border-bottom: 2px solid #7B1FA2;
+        margin: 20px;
+    }
+
+    .ingreso .cuadroText{
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+        border: none; /*quita el borde del cuadro de texto al escribir*/
+    }
+
+    #recordar{
+        margin: 5px 0 20px 5px;
+    }
+
+    #boton{
+        width: 100%;
+        height: 50px;
+        border: 2px solid blueviolet;
+        background: #64B5F6;
+        border-radius: 7px; /*bordes recuadros*/
+        font-size: 18px;/*Tamaño de la letra*/
+        color: black;
+        cursor: pointer;
+    }  
+
+    #registrarse{
+        margin-top: 20px;
+        margin-bottom: 20px;/*Margen Inferior*/
+        color: black;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #registrarse a{
+        color: blue;
+        text-decoration: none;
+    }
+
+    #registrarse a:hover{
+        text-decoration: underline;/*Subrayar un texto en especifico que lleva
+    a otra pagina*/
+    }
+
+    #imglogo{
+      margin: 0 140px;
+
+    }
